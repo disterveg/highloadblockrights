@@ -6,6 +6,10 @@ use Bitrix\Highloadblock\HighloadBlockTable,
     Bitrix\Main\DB\SqlExpression;
 use Disterveg\HighloadblockRights\Internals\HlblockElementRightsTable;
 
+if (!\Bitrix\MainMain\Loader::includeModule('highloadblock')) {
+	return;
+}
+
 /**
  * Хелпер для работы с правами на элементы
  *
