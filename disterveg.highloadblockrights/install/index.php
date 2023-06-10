@@ -156,7 +156,8 @@ class Disterveg_highloadblockrights extends \CModule
          * version = * - любая версия
          */
         return [
-            'main' => '18.5.180'
+            'main' => '18.5.180',
+            'highloadblock' => '*',
         ];
     }
 
@@ -222,8 +223,8 @@ class Disterveg_highloadblockrights extends \CModule
             );
         } elseif ($step == 2) {
             $params = [];
-            if (isset($_GET['savedata'])) {
-                $params['savedata'] = $_GET['savedata'] == 'Y';
+            if (!empty($request->get('savedata'))) {
+                $params['savedata'] = $request->get('savedata') == 'Y';
             }
             $this->unInstallDB($params);
             $this->uninstallFiles();

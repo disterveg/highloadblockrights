@@ -2,8 +2,8 @@
 
 namespace Disterveg\HighloadblockRights\UserField\Types;
 
-use Bitrix\Main\UserField\Types\BaseType;
-use Bitrix\Main\Localization\Loc;
+use Bitrix\Main\UserField\Types\BaseType,
+    Bitrix\Main\Localization\Loc;
 use CUserTypeManager;
 use Disterveg\HighloadblockRights\Internals\HlblockElementRightsTable;
 

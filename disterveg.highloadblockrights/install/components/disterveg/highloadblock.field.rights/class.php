@@ -5,8 +5,8 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
 }
 
 use Bitrix\Main\Component\BaseUfComponent;
-use Disterveg\HighloadblockRights\UserField\Types\HlBlockElementRightsType;
-use Disterveg\HighloadblockRights\Internals\HlblockElementRightsTable;
+use Disterveg\HighloadblockRights\UserField\Types\HlBlockElementRightsType,
+    Disterveg\HighloadblockRights\Internals\HlblockElementRightsTable;
 
 /**
  * Права доступа на highloadblock элементы

@@ -4,9 +4,9 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
     die();
 }
 
-use Bitrix\Main\Localization\Loc;
-use Bitrix\Main\Text\HtmlFilter;
-use Bitrix\Main\Web\Json;
+use Bitrix\Main\Localization\Loc,
+    Bitrix\Main\Text\HtmlFilter,
+    Bitrix\Main\Web\Json;
 
 /**
  * @var StringUfComponent $component

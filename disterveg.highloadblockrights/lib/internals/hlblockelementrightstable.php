@@ -2,10 +2,10 @@
 
 namespace Disterveg\HighloadblockRights\Internals;
 
-use Bitrix\Main\Localization\Loc;
-use Bitrix\Main\ORM\Data\DataManager;
-use Bitrix\Main\ORM\Fields\StringField;
-use Bitrix\Main\ORM\Fields\IntegerField;
+use Bitrix\Main\Localization\Loc,
+    Bitrix\Main\ORM\Data\DataManager,
+    Bitrix\Main\ORM\Fields\StringField,
+    Bitrix\Main\ORM\Fields\IntegerField;
 
 /**
  * ORM сущность для таблицы права на хайлоад элементы
