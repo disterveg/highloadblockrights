@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS dg_hlblock_element_rights;
